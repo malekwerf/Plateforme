@@ -1,0 +1,380 @@
+/* styles.css */
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #001f3f;
+    color: rgb(241, 241, 241);
+    padding: 20px;
+   
+}
+nav ul li a:hover,
+nav ul li .dropbtn:hover {
+    background-color: #0056b3;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #001f3f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(29, 28, 28, 0.986);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(250, 245, 245);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #636262;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    height: 50px; /* Ajustez la taille du logo selon vos besoins */
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+nav ul li select {
+    text-decoration: none;
+    color: white;
+    background-color: #001f3f;
+    border: none;
+    padding: 18px;
+    font-size: 14px;
+    border-radius: 4px;
+   
+}
+
+nav ul li select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+nav ul li select:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+.hero {
+    width: 100%;
+    height: 50vh; /* Use full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('imgg/male-developer-working-with-manufacturing-software-develop-industrial-machinery-gears-model-engineering-technical-machine-product-computer-construction-industry-development.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(237, 232, 232);
+    position: relative;
+}
+
+.hero-content {
+    max-width: 600px;
+    z-index: 1;
+    background: rgba(234, 233, 233, 0.221);
+    padding: 30px;
+    color: #fdfbfb;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+
+.hero1 {
+    width: 100%;
+    height: 60vh; /* Use full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('imgg/cours-particulier-en-ligne-avantages.webp') no-repeat center center;
+    background-size: cover;
+    color: rgb(8, 8, 8);
+    font-family: Didot, sans-serif;
+
+    position: relative;
+    
+}
+
+.hero-content1 {
+    max-width: 600px;
+    z-index: 1;
+  
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.hero2 {
+    width: 100%;
+    height: 60vh; /* Use full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('imgg/DPY44SQFBZCBRMYH4ISHHGMFP4.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(8, 8, 8);
+    font-family: Didot, sans-serif;
+
+    position: relative;
+    
+}
+
+.hero-content2 {
+    max-width: 600px;
+    z-index: 1;
+  
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+.hero p {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#logo {
+    width: 100%;
+    height: 90vh; /* Ajustez la hauteur selon vos besoins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo .logo-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo .logo-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+#contact-info {
+    padding: 50px;
+    background: #dae0e8;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+#contact-info h1 {
+    margin-bottom: 30px;
+    font-size: 3em;
+}
+
+#contact-info p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between each contact item */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+}
+
+.contact-item {
+    font-size: 1.2em; /* Optional: Increase font size for better readability */
+    margin: 10px 0; /* Optional: Add some vertical space for better readability on smaller screens */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.contact-item a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+.contact-icon {
+    width: 24px; /* Size of the icon */
+    height: 24px; /* Size of the icon */
+}
+
+#courseDropdown {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid  #001f3f;
+}
+
+.course-levels {
+    padding: 20px;
+    background-color: #001f3f;
+    border-top: 1px solid #001f3f;
+}
+
+.course-levels a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.course-levels a:hover {
+    background-color: #001f3f;
+}
+#devoirDropdown{
+
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid  #001f3f;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+section.trimester {
+    margin: 20px 0;
+}
+
+section.trimester h2 {
+    font-size: 24px;
+    color: #001f3f;
+    text-align: center;
+}
+
+section.trimester ul {
+    list-style: none;
+    padding: 0;
+}
+
+section.trimester ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+section.trimester ul li a {
+    text-decoration: none;
+    color: #001f3f;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}

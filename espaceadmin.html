@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace Administrateur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            
+            <h2>MehrezTechnoSchool</h2>
+            <nav>
+                <ul>
+                    <li><a href="#Accueil">Accueil</a></li>
+                    <li><a href="#Admin">Admin</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="admin" class="admin-section">
+            <h2>Espace Administrateur</h2>
+            <form id="uploadForm">
+                <div class="form-group">
+                    <label for="file">Choisir un fichier :</label>
+                    <input type="file" id="file" name="file" required>
+                </div>
+                <div class="form-group">
+                    <label for="type">Type de document :</label>
+                    <select id="type" name="type" required>
+                        <option value="Cours">Cours</option>
+                        <option value="Devoirs">Devoirs</option>
+                        <option value="Exercices">Exercices</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="niveau">Sélectionner le niveau d'étude :</label>
+                    <select id="niveau" name="niveau" required>
+                        <option value="">--Sélectionner--</option>
+                        <option value="7">7ème de base</option>
+                        <option value="8">8ème de base</option>
+                        <option value="9">9ème de base</option>
+                        <option value="1">1ère</option>
+                        <option value="2">2ème</option>
+                        <option value="3">3ème</option>
+                        <option value="4">4ème</option>
+                    </select>
+                </div>
+                <button type="submit">Importer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Plateforme de Cours en Ligne</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
